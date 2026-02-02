@@ -26,18 +26,6 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          <Image
-            className={styles.heroLogo}
-            src="/Wedding_Logo.ico"
-            alt="Wedding logo"
-            width={160}
-            height={160}
-            priority
-          />
-          <h1 className={styles.title}>모바일 청첩장</h1>
-          <p className={styles.subtitle}>
-            여기에서 예식 정보와 스토리를 채워나갈 수 있어요.
-          </p>
           <div className={styles.scrollSpacer} aria-hidden="true" />
           <img
             className={styles.contentImage}
