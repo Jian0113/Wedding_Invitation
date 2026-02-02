@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WeddingInvitation.com</title>
+        <title>효영,소미의 결혼식에 초대합니다</title>
         <meta name="description" content="모바일 청첩장" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Wedding_Logo.ico" />
