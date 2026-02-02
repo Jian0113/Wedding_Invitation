@@ -38,6 +38,13 @@ export default function Home() {
           <p className={styles.subtitle}>
             여기에서 예식 정보와 스토리를 채워나갈 수 있어요.
           </p>
+          <div className={styles.scrollSpacer} aria-hidden="true" />
+          <img
+            className={styles.contentImage}
+            src="/content.png"
+            alt="모바일 청첩장 콘텐츠"
+            loading="lazy"
+          />
         </main>
       </div>
     </>
